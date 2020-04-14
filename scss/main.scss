@@ -1,17 +1,12 @@
-$primary-color: #444;
-$secondary-color: #eece1a;
-$show-home-image: true;
-$home-image: url();
-
-@mixin eastOut {
-  transition: all 0.5s ease-out;
-}
+@import "config";
+@import "menu";
 
 * {
   box-sizing: border-box;
 }
 
 body {
+  @include background;
   background: $primary-color;
   color: white;
   height: 100%;
@@ -64,7 +59,7 @@ main {
       padding: 0.4rem;
       &:hover {
         color: $secondary-color;
-        @include eastOut();
+        @include easeOut();
       }
     }
   }
