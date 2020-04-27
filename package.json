@@ -2,7 +2,7 @@
   "name": "kevindevportfolio",
   "version": "1.0.0",
   "description": "responsive portfolio website",
-  "main": "home.js",
+  "main": "index.js",
   "homepage": "https://kevinkm3.github.io/kevin-portfolio2",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
