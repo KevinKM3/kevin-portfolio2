@@ -1,0 +1,29 @@
+[debug] [2020-04-27T17:49:40.675Z] ----------------------------------------------------------------------
+[debug] [2020-04-27T17:49:40.681Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2020-04-27T17:49:40.682Z] CLI Version:   8.1.1
+[debug] [2020-04-27T17:49:40.682Z] Platform:      darwin
+[debug] [2020-04-27T17:49:40.683Z] Node Version:  v12.14.1
+[debug] [2020-04-27T17:49:40.694Z] Time:          Mon Apr 27 2020 13:49:40 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-04-27T17:49:40.695Z] ----------------------------------------------------------------------
+[debug] [2020-04-27T17:49:40.695Z] 
+[debug] [2020-04-27T17:49:40.726Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-27T17:49:40.727Z] > authorizing via signed-in user
+[debug] [2020-04-27T17:49:40.728Z] [iam] checking project portfolio-a3195 for permissions ["firebase.projects.get"]
+[debug] [2020-04-27T17:49:40.741Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-04-27T17:49:40.741Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-04-27T17:49:41.053Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 27 Apr 2020 17:49:41 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-27T17:49:41.091Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-a3195:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-04-27T17:49:41.402Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 27 Apr 2020 17:49:41 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=164","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-27T17:49:41.404Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/portfolio-a3195  
+ 
+[debug] [2020-04-27T17:49:41.690Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 27 Apr 2020 17:49:41 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from '/Users/Kevin/Desktop/KevinDevPortfolio'...
+[info] 
+[debug] [2020-04-27T17:49:41.694Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/portfolio-a3195/webApps/-/config  
+ 
+[debug] [2020-04-27T17:49:42.311Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 27 Apr 2020 17:49:42 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
