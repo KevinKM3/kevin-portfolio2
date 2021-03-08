@@ -1,2 +1,2 @@
 # Portfolio Site
- # Build with React.js 
+ # JavaScript and Sass 
